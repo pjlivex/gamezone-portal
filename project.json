@@ -1,0 +1,23 @@
+{
+  "overview": "A vibrant Poki-like gaming portal with 10 browser-based games including Snake, 2048, Memory Match, Flappy Bird, Tic-Tac-Toe and more. Features a beautiful homepage, game grid, and individual game play views.",
+  "features": [
+    "Homepage with hero section and featured games",
+    "10-game grid with search and category tags",
+    "Individual game play view with canvas",
+    "5 fully playable games: Snake, 2048, Memory Match, Flappy Bird, Tic-Tac-Toe",
+    "5 stub games ready for future implementation",
+    "Vibrant colorful Poki-inspired design",
+    "Responsive layout for all screen sizes"
+  ],
+  "category": "games",
+  "tags": [
+    "games",
+    "gaming-portal",
+    "arcade",
+    "puzzle",
+    "browser-games",
+    "poki",
+    "casual-games"
+  ],
+  "last_updated": "2026-04-18T17:41:16.397Z"
+}
