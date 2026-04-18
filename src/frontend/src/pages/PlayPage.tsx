@@ -5,9 +5,11 @@ import { ArrowLeft, Lock } from "lucide-react";
 import { CategoryBadge } from "../components/CategoryBadge";
 import { Layout } from "../components/Layout";
 import { getGameById } from "../data/games";
+import BreakoutGame from "../games/BreakoutGame";
 import FlappyGame from "../games/FlappyGame";
 import Game2048 from "../games/Game2048";
 import MemoryGame from "../games/MemoryGame";
+import PongGame from "../games/PongGame";
 import SnakeGame from "../games/SnakeGame";
 import TicTacToeGame from "../games/TicTacToeGame";
 
@@ -17,6 +19,8 @@ const GAME_COMPONENTS: Record<string, React.ComponentType> = {
   memory: MemoryGame,
   flappy: FlappyGame,
   tictactoe: TicTacToeGame,
+  breakout: BreakoutGame,
+  pong: PongGame,
 };
 
 export default function PlayPage() {

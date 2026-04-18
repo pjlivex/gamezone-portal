@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
 import { Gamepad2, Menu, Search, X } from "lucide-react";
 import { useCallback, useState } from "react";
+import { GAMES } from "../data/games";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -165,9 +166,9 @@ export function Layout({ children, onSearch, searchValue = "" }: LayoutProps) {
             </a>
           </p>
           <div className="flex gap-4 text-sm text-muted-foreground">
-            <span>10 Games</span>
+            <span>{GAMES.length} Games</span>
             <span>•</span>
-            <span>5 Playable</span>
+            <span>{GAMES.filter((g) => g.implemented).length} Playable</span>
             <span>•</span>
             <span>Free Forever</span>
           </div>
