@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Play4Fun 🎮</title>
+  <title>Play4Fun 🎮 - Free Online Games</title>
 
-  <!-- ✅ AdSense Code -->
+  <!-- ✅ AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1286130605589936"
   crossorigin="anonymous"></script>
 
   <style>
     body {
+      margin: 0;
+      font-family: Arial;
       background: #0f172a;
       color: white;
       text-align: center;
-      font-family: Arial;
     }
-    h1 {
-      margin-top: 50px;
+    header {
+      background: #1e293b;
+      padding: 15px;
+      font-size: 24px;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      margin-top: 20px;
+      padding: 15px;
+      background: #1e293b;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
     }
   </style>
 </head>
 
 <body>
-  <h1>Welcome to Play4Fun 🎮</h1>
-  <p>Your gaming hub is live!</p>
+
+<header>🎮 Play4Fun - Free Games</header>
+
+<div class="games">
+  <div class="card">Snake Game</div>
+  <div class="card">Car Racing</div>
+  <div class="card">Puzzle Game</div>
+  <div class="card">Arcade Game</div>
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy</a> |
+  <a href="about.html">About</a> |
+  <a href="contact.html">Contact</a>
+</footer>
+
 </body>
 </html>
