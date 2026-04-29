@@ -13,6 +13,16 @@ export const GAMES: GameMeta[] = [
     implemented: true,
   },
   {
+  id: "pizza-pro",
+  title: "Pizza Rush City",
+  description: "Drive, drift, boost and deliver pizzas in an open world city!",
+  category: "Action",
+  tags: ["driving", "open-world", "delivery"],
+  color: "#ff6b6b",
+  emoji: "🚗",
+  implemented: true,
+},
+  {
   id: "pizza",
   title: "Pizza Delivery",
   description: "Deliver pizzas fast and avoid traffic!",
