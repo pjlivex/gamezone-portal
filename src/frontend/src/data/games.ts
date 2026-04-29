@@ -13,6 +13,15 @@ export const GAMES: GameMeta[] = [
     implemented: true,
   },
   {
+  id: "pizza",
+  title: "Pizza Delivery",
+  description: "Deliver pizzas fast and avoid traffic!",
+  emoji: "🍕",
+  category: "action",
+  color: "#ff6b6b",
+  implemented: true,
+}
+  {
     id: "game2048",
     title: "2048",
     description: "Slide tiles and merge numbers to reach the legendary 2048!",
