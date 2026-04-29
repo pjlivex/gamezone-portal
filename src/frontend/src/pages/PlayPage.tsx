@@ -12,6 +12,7 @@ import MemoryGame from "../games/MemoryGame";
 import PongGame from "../games/PongGame";
 import SnakeGame from "../games/SnakeGame";
 import TicTacToeGame from "../games/TicTacToeGame";
+import VortellisPizza from "../games/VortellisPizza";
 
 const GAME_COMPONENTS: Record<string, React.ComponentType> = {
   snake: SnakeGame,
@@ -21,6 +22,7 @@ const GAME_COMPONENTS: Record<string, React.ComponentType> = {
   tictactoe: TicTacToeGame,
   breakout: BreakoutGame,
   pong: PongGame,
+  pizza: VortellisPizza,
 };
 
 export default function PlayPage() {
