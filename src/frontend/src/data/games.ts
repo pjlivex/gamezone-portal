@@ -17,10 +17,10 @@ export const GAMES: GameMeta[] = [
   title: "Pizza Delivery",
   description: "Deliver pizzas fast and avoid traffic!",
   emoji: "🍕",
-  category: "action",
+  category: "Action", // ✅ FIXED
   color: "#ff6b6b",
   implemented: true,
-}, // 👈 ADD THIS COMMA
+},
   {
     id: "game2048",
     title: "2048",
