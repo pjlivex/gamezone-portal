@@ -20,7 +20,7 @@ export const GAMES: GameMeta[] = [
   category: "action",
   color: "#ff6b6b",
   implemented: true,
-}
+}, // 👈 ADD THIS COMMA
   {
     id: "game2048",
     title: "2048",
